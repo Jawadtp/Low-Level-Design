@@ -1,0 +1,5 @@
+# Compiled C++ artifacts
+*.exe
+*.o
+*.obj
+*.out
