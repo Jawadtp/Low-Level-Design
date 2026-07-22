@@ -1,0 +1,12 @@
+{
+  "code-runner.runInTerminal": true,
+  "code-runner.executorMap": {
+    "cpp": "Set-Location -LiteralPath '$workspaceRoot'; g++ -std=c++17 -mconsole '$fullFileName' -o '$fileNameWithoutExt.exe'; if ($?) { & \".\\$fileNameWithoutExt.exe\" }"
+  },
+  "github.copilot.enable": {
+    "*": false,
+    "plaintext": false,
+    "markdown": false,
+    "cpp": false
+  }
+}
