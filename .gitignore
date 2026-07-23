@@ -3,3 +3,6 @@
 *.o
 *.obj
 *.out
+
+# VS Code workspace settings
+.vscode/
